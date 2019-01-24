@@ -1,0 +1,14 @@
+.Main {
+  display: flex;
+  min-height: 100%;
+}
+
+.Sidebar {
+  background: #ededed;
+  width: 260px;
+}
+
+.Content {
+  flex: 1;
+  margin: 20px;
+}
