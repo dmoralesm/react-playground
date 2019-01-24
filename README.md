@@ -41,6 +41,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 - Added .editorconfig. [EditorConfig](https://editorconfig.org/)
 - Added Prettier and Husky. [Formatting Code Automatically](https://facebook.github.io/create-react-app/docs/setting-up-your-editor#formatting-code-automatically)
-  - Created .prettierrc file and move prettier rules to there
+  - Created [.prettierrc file](.prettierrc) and move prettier rules to there
 - Added hot reloading. [Hot reloading with create-react-app without ejecting](https://medium.com/@brianhan/hot-reloading-cra-without-eject-b54af352c642)
 - Disabled VSCode default linter for this in [workspace settings](.vscode/settings.json): `"javascript.validate.enable": false`
