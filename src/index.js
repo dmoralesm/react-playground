@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './components/App/App';
 import * as serviceWorker from './serviceWorker';
 
 const rootElement = document.getElementById('root');
@@ -13,8 +13,8 @@ const render = Component => {
 render(App);
 
 if (module.hot) {
-  module.hot.accept('./App', () => {
-    const NextApp = require('./App').default;
+  module.hot.accept('./components/App/App', () => {
+    const NextApp = require('./components/App/App').default;
     render(NextApp);
   });
 }
